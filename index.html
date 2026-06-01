@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>台北市即時雨量地圖</title>
+  
+  <!-- 1. 引用 Leaflet 的 CSS (必須放在前面) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
+  <style>
+    body { margin: 0; padding: 0; overflow: hidden; }
+    #myLeafletMap { width: 100vw; height: 100vh; }
+  </style>
+</head>
+<body>
+  <!-- 2. 引用 Leaflet 的 JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <!-- 3. 引用 p5.js 核心庫 (從你的 libraries 資料夾引用) -->
+  <script src="libraries/p5.min.js"></script>
+  <!-- 4. 引用你的主程式 -->
+  <script src="sketch.js"></script>
+</body>
+</html>
